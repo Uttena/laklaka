@@ -1,0 +1,64 @@
+
+/* Encabezado */
+/* todo lo relacionaod con el area del encadezado (header) */
+header{
+    background:whitesmoke;
+}
+
+
+/* navegacion */
+/* todo lo relacionaod con el area de navegacion (nav)*/
+nav{
+    background: rgb(107, 184, 139);
+    padding: 10px;
+    
+}
+
+
+
+.nav-enlaces{
+    display: inline-block;
+    background: slategray;
+    color: blue;
+    padding: 10px, 30px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+
+.nav-enlaces:hover{
+    display: inline-block;
+    background: rgb(166, 148, 230);
+    color: black;
+    padding: 10px, 30px;
+}
+
+
+/* Seccion  */
+/* todo lo relacion con el area de seccion (section) */
+section{
+    background: rgb(168, 154, 154);
+}
+.padre{
+    display: flex;
+}
+.columna{
+    background: #f6416c;
+    color: #f8f3d4;
+    padding: 20px;
+    width: 23%;
+    margin: 5px;
+
+}
+
+
+ /* Pide de pagina  */
+/* todo lo relacion con el area de pie de pagina (footer)*/
+.foot-enlaces{
+    display: inline-block;
+    background: slategray;
+    color: blue;
+    padding: 10px, 30px;
+    text-decoration: none;
+    margin: 5px;
+}
